@@ -65,37 +65,37 @@ Mitchell (2009): emergent behavior arises in adaptive systems. Zoom 49 demonstra
 
 ### Week 1 – The Digital Tristero (Chaos)
 - **Key Events:** Notifications, dancing llama GIFs, horn signals, accidental problem-solving  
-![Blurred Zoom gallery with floating GIFs / abstract rectangles](public\assets\zoom49\week1\figure1.png)  
+![Blurred Zoom gallery with floating GIFs / abstract rectangles](public/assets/zoom49/week1/figure1.png)  
 - **Character Arcs:** Oedi (observer), Sergio (stability), Milo (play)  
 
 ### Week 2 – The Recursive Signal
 - **Key Events:** Dot participant, Slack anomalies, repeated patterns  
-![Multi-layered screens, bullet point echoes](public\assets\zoom49\week1\figure2.png)  
+![Multi-layered screens, bullet point echoes](public/assets/zoom49/week1/figure2.png)  
 - **Character Arcs:** Oedi (pattern recognition), Milo (playful reflection)  
 
 ### Week 3 – The Stress Test
 - **Key Events:** Predicted failures, emotional stress, adaptive recovery  
-![Lagging Zoom tiles, red warnings, spiraling threads](public\assets\zoom49\week1\figure3.png)  
+![Lagging Zoom tiles, red warnings, spiraling threads](public/assets/zoom49/week1/figure3.png)  
 - **Character Arcs:** Oedi (decision anchor), Milo (modulated play)  
 
 ### Week 4 – The Meta Turn
 - **Key Events:** Phantom Observer_X, AI/phantom dots, recursive communication  
-![Fractal grid + mirrored tiles + ghost participants](public\assets\zoom49\week1\figure4.png)  
+![Fractal grid + mirrored tiles + ghost participants](public/assets/zoom49/week1/figure4.png)  
 - **Character Arcs:** Oedi (meta-awareness), Sergio (multi-layered stability)  
 
 ### Week 5 – Phantom Protocols
 - **Key Events:** AI participants, predictive loops, horn as awareness tool  
-![Invisible AI icons + GIF interactions](public\assets\zoom49\week1\figure5.png)  
+![Invisible AI icons + GIF interactions](public/assets/zoom49/week1/figure5.png)  
 - **Character Arcs:** Oedi (co-creator), Milo (playful insight)  
 
 ### Week 6 – Predictive Play
 - **Key Events:** Anticipated glitches, horn as syntax, Tristero mapping  
-![Network diagram connecting past, present, anticipated actions](public\assets\zoom49\week1\figure6.png)  
+![Network diagram connecting past, present, anticipated actions](public/assets/zoom49/week1/figure6.png)  
 - **Character Arcs:** Oedi (strategic participant), Milo (play as generative strategy)  
 
 ### Week 7 – The Tristero Revealed
 - **Key Events:** Meta-resolution, motifs converge, closure without closure  
-![Overlay of Zoom tiles + recursive loops + raccoon tipping horn](public\assets\zoom49\week1\figure7.png)  
+![Overlay of Zoom tiles + recursive loops + raccoon tipping horn](public/assets/zoom49/week1/figure7.png)  
 - **Character Arcs:** Oedi (co-author), Sergio (living protocol), Milo (playful insight)  
 
 ---
