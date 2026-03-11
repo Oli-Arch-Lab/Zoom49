@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Node from '../../components/Node.astro';
+import Cluster from '../../components/Cluster.astro';
+import FeedbackLoop from '../../components/FeedbackLoop.astro';
+import TooltipPanel from '../../components/TooltipPanel.astro';
+
+// Import your markdown exercise files
+import { default as exerciseOne } from '../../content/weeks/week12/day1.md';
+import { default as exerciseTwo } from '../../content/weeks/week12/day2.md';
+---
+
+<BaseLayout title="Week 12">
+  <h1>Week 12: Advanced Concepts</h1>
+
+  <!-- Single Node Example -->
+  <Node
+    id="node-1"
+    title="Core Concept A"
+    markdownFile={exerciseOne}
+    color="#4fc3f7"
+  />
+
+  <!-- Cluster with Multiple Nodes -->
+  <Cluster
+    title="Concept Cluster"
+    nodes={[
+      {
+        id: "cluster-node-1",
+        title: "Exercise 1",
+        markdownFile: exerciseOne,
+        color: "#26c6da"
+      },
+      {
+        id: "cluster-node-2",
+        title: "Exercise 2",
+        markdownFile: exerciseTwo,
+        color: "#29b6f6"
+      }
+    ]}
+  />
+
+  <!-- Feedback Loop (Recursion indicator) -->
+  <FeedbackLoop fromId="node-1" toId="cluster-node-1" />
+</BaseLayout>
+
+<style>
+  h1 {
+    margin: 2rem 0;
+  }
+</style>

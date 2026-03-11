@@ -1,0 +1,117 @@
+---
+const { weekData = [] } = Astro.props;
+const weekJson = JSON.stringify(weekData);
+---
+
+<div
+id="ai-dot-root"
+class="fixed bottom-6 right-6 z-[9999]"
+data-week={weekJson}
+>
+
+  <!-- Dot -->
+  <button
+    id="ai-dot-toggle"
+    class="ai-dot relative z-[10000] w-12 h-12 rounded-full bg-signal text-white flex items-center justify-center shadow-lg transition"
+  >
+    •
+  </button>
+
+  <!-- Panel -->
+  <div
+    id="ai-dot-panel"
+    class="hidden mt-4 w-80 bg-white border border-neutral-200 rounded-xl shadow-xl p-4"
+  >
+    <div class="flex justify-between items-center mb-4">
+      <h3 class="font-semibold text-sm tracking-wide">
+        AI Dot — Context Mode
+      </h3>
+      <button id="ai-dot-close">✕</button>
+    </div>
+
+    <textarea
+      id="ai-dot-input"
+      class="w-full border border-neutral-200 rounded-md p-2 text-sm mb-3"
+      rows="3"
+      placeholder="Where does the Horn first appear?"
+    ></textarea>
+
+    <button
+      id="ai-dot-send"
+      class="w-full bg-neutral-900 text-white text-sm py-2 rounded-md"
+    >
+      Reflect
+    </button>
+
+    <div
+      id="ai-dot-response"
+      class="mt-4 text-sm text-neutral-700 max-h-48 overflow-auto"
+    ></div>
+  </div>
+
+</div>
+
+<style>
+  .ai-dot {
+    position: relative;
+    animation: flicker 6s infinite linear;
+  }
+
+  /* Idle pulse halo */
+  .ai-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: rgba(185, 28, 28, 0.35);
+    animation: pulse 3s ease-out infinite;
+    z-index: -1;
+  }
+
+  /* Stop idle animation when open */
+  .ai-dot.active {
+    animation: none;
+  }
+
+  .ai-dot.active::after {
+    animation: none;
+    opacity: 0;
+  }
+
+  /* Thinking animation */
+  .ai-dot.thinking {
+    animation: thinkingPulse 1s ease-in-out infinite;
+  }
+
+  .ai-dot.thinking::after {
+    animation: thinkingHalo 1.2s ease-out infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.5; }
+    70% { transform: scale(1.8); opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes thinkingPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes thinkingHalo {
+    0% { transform: scale(1); opacity: 0.7; }
+    70% { transform: scale(2.2); opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes flicker {
+    0% { filter: brightness(1); }
+    12% { filter: brightness(1.05); }
+    23% { filter: brightness(0.95); }
+    37% { filter: brightness(1.04); }
+    52% { filter: brightness(0.97); }
+    78% { filter: brightness(1.05); }
+    100% { filter: brightness(1); }
+  }
+</style>

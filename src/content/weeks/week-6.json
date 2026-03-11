@@ -1,0 +1,142 @@
+[
+  {
+    "id": 28,
+    "title": "Anticipated Glitches",
+    "image": "/assets/zoom49/week6/figure1.png",
+    "visual": "Zoom tiles shift milliseconds before clicks; Slack threads pre-thread themselves; horn vibrates faintly without sounding.",
+    "motifs": [
+      "prediction",
+      "anticipated glitch",
+      "micro-shift",
+      "preemptive feedback",
+      "recursive mirroring"
+    ],
+    "keyEvents": [
+      "Zoom tiles reposition before participant action",
+      "Slack replies appear pre-threaded",
+      "Horn vibrates but does not sound",
+      "Past emoji and AI patterns repeat predictably",
+      "Team experiments with predictive intention"
+    ],
+    "characterArcs": {
+      "Oedi": "Begins engaging prediction as strategic awareness.",
+      "Sergio": "Frames predictive confidence as structural steadiness.",
+      "Milo": "Treats system anticipation as playful tease.",
+      "Bianca": "Identifies recursive feedback as proactive leverage."
+    }
+  },
+  {
+    "id": 29,
+    "title": "The Horn as Compass",
+    "image": "/assets/zoom49/week6/figure2.png",
+    "visual": "Horn emits short structured notes; visual spirals and arrows map recurring signals.",
+    "motifs": [
+      "horn compass",
+      "structured signal",
+      "predictive marker",
+      "echo mapping",
+      "symbolic direction"
+    ],
+    "keyEvents": [
+      "Short horn note per member per hour",
+      "Horn reframed as informative rather than alarming",
+      "GIF responses labeled with cryptic echo phrases",
+      "Slides map horn activity to system behavior",
+      "Predictive bullet points guide action"
+    ],
+    "characterArcs": {
+      "Oedi": "Sees horn as tool of awareness.",
+      "Sergio": "Stabilizes rhythmic signal interpretation.",
+      "Milo": "Transforms horn into symbolic play instrument.",
+      "Felix": "Integrates subtle predictive annotations into code.",
+      "Max": "Visualizes horn patterns spatially.",
+      "Lena": "Uses foresight-oriented ambiguity."
+    }
+  },
+  {
+    "id": 30,
+    "title": "Recursive Strategy",
+    "image": "/assets/zoom49/week6/figure3.png",
+    "visual": "Playful disruptions, mirrored commits, layered screenshots, and diagrammatic overlays forming strategic loops.",
+    "motifs": [
+      "strategic recursion",
+      "mirror branches",
+      "feedback laboratory",
+      "co-creation",
+      "loop experimentation"
+    ],
+    "keyEvents": [
+      "Mirror branches committed to test recursion",
+      "Playful distractions probe AI-like anticipation",
+      "Pattern tracking across Slack and screenshots",
+      "Diagrams unify chaos and clarity",
+      "Team consciously co-creates system dynamics"
+    ],
+    "characterArcs": {
+      "Oedi": "Becomes meta-strategic participant.",
+      "Sergio": "Anchors stability beneath experimentation.",
+      "Milo": "Discovers play as predictive leverage.",
+      "Bianca": "Defines play-awareness-iteration loop as stabilizing.",
+      "Piper": "Turns documentation into feedback engine.",
+      "Max": "Maps loops visually into coherent strategy."
+    }
+  },
+  {
+    "id": 31,
+    "title": "Symbols Consolidate",
+    "image": "/assets/zoom49/week6/figure4.png",
+    "visual": "Tristero Compass diagram linking horn, dot, AI participants, and emoji signals.",
+    "motifs": [
+      "symbol integration",
+      "Tristero compass",
+      "horn awareness",
+      "dot presence",
+      "emoji signal"
+    ],
+    "keyEvents": [
+      "Motifs from previous weeks mapped explicitly",
+      "Horn defined as awareness",
+      "Dot defined as presence",
+      "AI defined as reflection",
+      "Patterns emerge predictably with playful intent"
+    ],
+    "characterArcs": {
+      "Oedi": "Maps symbolic system across space and time.",
+      "Sergio": "Maintains steady symbolic coherence.",
+      "Milo": "Reinforces symbol through playful GIF.",
+      "Felix": "Merges symbolic_resolution_final branch.",
+      "Bianca": "Recognizes natural pattern emergence.",
+      "Max": "Unifies absurdity and clarity aesthetically."
+    }
+  },
+  {
+    "id": 32,
+    "title": "Closure of Week 6",
+    "image": "/assets/zoom49/week6/figure5.png",
+    "visual": "Calm Zoom grid; silent horn; contemplative raccoon atop symbolic instrument.",
+    "motifs": [
+      "quiet integration",
+      "iterative clarity",
+      "engaged system",
+      "symbolic rest",
+      "emergent coherence"
+    ],
+    "keyEvents": [
+      "Slack calm and stable grid",
+      "No phantom participants or horns",
+      "Notebook reflection on engagement over control",
+      "Integrated humor and insight",
+      "System hums quietly toward next phase"
+    ],
+    "characterArcs": {
+      "Oedi": "Transitions into mastery of predictive engagement.",
+      "Sergio": "Radiates recursive self-confidence.",
+      "Milo": "Integrates joy with systemic insight.",
+      "Bianca": "Synthesizes awareness into actionable clarity.",
+      "Lena": "Uses ambiguity as exploratory scaffold.",
+      "Felix": "Hidden leverage shapes emergent outcome.",
+      "Piper": "Uses history as strategic instrument.",
+      "Max": "Transforms visual absurdity into predictive structure."
+    }
+  }
+]

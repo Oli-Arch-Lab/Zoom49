@@ -1,0 +1,91 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-3.json";
+---
+
+<BaseLayout
+  title="Week 3 — The Stress Test"
+  weekData={weekData}
+>
+
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">
+      Week 3 — The Stress Test
+    </h1>
+
+    <p class="text-neutral-700 leading-relaxed mb-4">
+      Where emergence meets fracture.
+    </p>
+
+    <p class="text-neutral-600 leading-relaxed">
+      The system is no longer mysterious.  
+      It is alive.  
+      And alive systems are defined not by smoothness —  
+      but by adaptive resilience.
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+
+    <div>
+      <h2 class="text-2xl font-serif mb-2">
+        Thematic Shift
+      </h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+        Week 2: Recursion<br />
+        Week 3: Stress
+      </p>
+    </div>
+
+    <!-- Character Integration -->
+    <div>
+      <h2 class="text-2xl font-serif mb-4">
+        Character Integration Under Pressure
+      </h2>
+
+      <ul class="space-y-3 text-neutral-700">
+        <li>
+          <strong>Oedi:</strong> Moves from observer to decision anchor.
+        </li>
+        <li>
+          <strong>Sergio:</strong> Tested under launch strain; returns resilient.
+        </li>
+        <li>
+          <strong>Milo:</strong> Learns discernment; play becomes deliberate.
+        </li>
+        <li>
+          <strong>Bianca:</strong> Steps forward with explicit calm authority.
+        </li>
+        <li>
+          <strong>Felix:</strong> Speaks during crisis; silence proves depth.
+        </li>
+        <li>
+          <strong>Lena:</strong> Less cryptic, more transparent under stakes.
+        </li>
+        <li>
+          <strong>Piper:</strong> Documentation becomes collective mirror.
+        </li>
+        <li>
+          <strong>Max:</strong> Aesthetic sharpens into clarity under pressure.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        "Teams do not survive because systems are clear.
+        They survive because members choose coherence."
+      </blockquote>
+    </div>
+
+  </section>
+
+</BaseLayout>

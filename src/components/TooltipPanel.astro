@@ -1,0 +1,27 @@
+---
+const { markdownFile } = Astro.props;
+
+// Supports either:
+// 1) a markdown component directly
+// 2) a module where the component is on .default
+const MarkdownComponent = markdownFile?.default ?? markdownFile;
+---
+
+<div class="tooltip-panel">
+  {MarkdownComponent ? <MarkdownComponent /> : null}
+</div>
+
+<style>
+.tooltip-panel {
+  display: none;
+  position: absolute;
+  background: rgba(30,30,30,0.95);
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  max-width: 250px;
+}
+.node:hover .tooltip-panel {
+  display: block;
+}
+</style>

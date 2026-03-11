@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "title": "The Digital Tristero (Chaos)",
+    "image": "/assets/zoom49/week1/figure1.png",
+    "visual": "Blurred Zoom gallery with floating GIFs / abstract rectangles",
+    "motifs": [
+      "chaos",
+      "signal emergence",
+      "proto-recursion"
+    ],
+    "keyEvents": [
+      "Notifications",
+      "Dancing llama GIFs",
+      "Horn signals",
+      "Accidental problem-solving"
+    ],
+    "characterArcs": {
+      "Oedi": "Observer",
+      "Sergio": "Stability",
+      "Milo": "Play"
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Recursive Signal",
+    "image": "/assets/zoom49/week1/figure2.png",
+    "visual": "Multi-layered screens, bullet point echoes",
+    "motifs": [
+      "recursion",
+      "signal repetition"
+    ],
+    "keyEvents": [
+      "Dot participant",
+      "Slack anomalies",
+      "Repeated patterns"
+    ],
+    "characterArcs": {
+      "Oedi": "Pattern recognition",
+      "Milo": "Playful reflection"
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Stress Test",
+    "image": "/assets/zoom49/week1/figure3.png",
+    "visual": "Lagging Zoom tiles, red warnings, spiraling threads",
+    "motifs": [
+      "stress",
+      "adaptation"
+    ],
+    "keyEvents": [
+      "Predicted failures",
+      "Emotional stress",
+      "Adaptive recovery"
+    ],
+    "characterArcs": {
+      "Oedi": "Decision anchor",
+      "Milo": "Modulated play"
+    }
+  },
+  {
+    "id": 4,
+    "title": "The Meta Turn",
+    "image": "/assets/zoom49/week1/figure4.png",
+    "visual": "Fractal grid + mirrored tiles + ghost participants",
+    "motifs": [
+      "meta-layer",
+      "observer recursion"
+    ],
+    "keyEvents": [
+      "Phantom Observer_X",
+      "AI/phantom dots",
+      "Recursive communication"
+    ],
+    "characterArcs": {
+      "Oedi": "Meta-awareness",
+      "Sergio": "Multi-layered stability"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Phantom Protocols",
+    "image": "/assets/zoom49/week1/figure5.png",
+    "visual": "Invisible AI icons + GIF interactions",
+    "motifs": [
+      "ai agency",
+      "protocol shift"
+    ],
+    "keyEvents": [
+      "AI participants",
+      "Predictive loops",
+      "Horn as awareness tool"
+    ],
+    "characterArcs": {
+      "Oedi": "Co-creator",
+      "Milo": "Playful insight"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Predictive Play",
+    "image": "/assets/zoom49/week1/figure6.png",
+    "visual": "Network diagram connecting past, present, anticipated actions",
+    "motifs": [
+      "anticipation",
+      "network cognition"
+    ],
+    "keyEvents": [
+      "Anticipated glitches",
+      "Horn as syntax",
+      "Tristero mapping"
+    ],
+    "characterArcs": {
+      "Oedi": "Strategic participant",
+      "Milo": "Generative strategy"
+    }
+  },
+  {
+    "id": 7,
+    "title": "The Tristero Revealed",
+    "image": "/assets/zoom49/week1/figure7.png",
+    "visual": "Overlay of Zoom tiles + recursive loops + raccoon tipping horn",
+    "motifs": [
+      "convergence",
+      "open resolution"
+    ],
+    "keyEvents": [
+      "Meta-resolution",
+      "Motifs converge",
+      "Closure without closure"
+    ],
+    "characterArcs": {
+      "Oedi": "Co-author",
+      "Sergio": "Living protocol",
+      "Milo": "Playful insight"
+    }
+  }
+]

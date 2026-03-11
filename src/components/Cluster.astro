@@ -1,0 +1,26 @@
+---
+import Node from './Node.astro';
+const { title, nodes } = Astro.props;
+---
+
+<div class="cluster">
+  <h4>{title}</h4>
+  <div class="cluster-nodes">
+    {nodes.map(node => <Node {...node} />)}
+  </div>
+</div>
+
+<style>
+.cluster {
+  padding: 15px;
+  border: 2px dashed #888;
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+}
+.cluster-nodes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+</style>

@@ -1,0 +1,145 @@
+[
+  {
+    "id": 8,
+    "title": "The Calendar That Knew Too Much",
+    "image": "/assets/zoom49/week2/figure1.png",
+    "visual": "Phantom calendar invite, empty organizer field, Zoom room with a single dot participant.",
+    "motifs": [
+      "dot",
+      "self-correcting system",
+      "phantom signal",
+      "alignment",
+      "emergent order"
+    ],
+    "keyEvents": [
+      "Auto-generated calendar invite titled Re: Re: Re: Alignment",
+      "Mandatory meeting with no organizer",
+      "Dot participant appears in Zoom",
+      "Three dependencies resolve without measurable output",
+      "System appears self-correcting"
+    ],
+    "characterArcs": {
+      "Oedi": "Shifts from procedural control to systemic suspicion of emergent intelligence.",
+      "Bianca": "Encourages calm metadata inspection and rational grounding.",
+      "Sergio": "Provides quiet infrastructural stability beneath uncertainty.",
+      "Milo": "Introduces playful disruption as interpretive strategy.",
+      "Felix": "Commits code silently at 09:49.",
+      "Piper": "Documents the dot as anomaly.",
+      "Max": "Integrates the dot into agenda as stakeholder.",
+      "Lena": "Warns against overinterpretation."
+    }
+  },
+  {
+    "id": 9,
+    "title": "The Echo Channel",
+    "image": "/assets/zoom49/week2/figure2.png",
+    "visual": "Emergent Slack channel #lot-49 filled with cryptic fragments and symbolic reactions.",
+    "motifs": [
+      "horn",
+      "echo",
+      "invisible participants",
+      "recursion",
+      "signal fragments"
+    ],
+    "keyEvents": [
+      "Unclaimed Slack channel #lot-49 appears",
+      "Fragments referencing horn and invisible participants",
+      "Corn emoji posted without explanation",
+      "Team collaborates through ambiguity",
+      "Stability begins resembling infrastructure"
+    ],
+    "characterArcs": {
+      "Oedi": "Confusion transforms from threat to intrigue.",
+      "Sergio": "Becomes architectural rather than reactive.",
+      "Milo": "Amplifies ambiguity with theatrical seriousness.",
+      "Felix": "States only: It compiles.",
+      "Bianca": "Recognizes collaborative adaptation emerging."
+    }
+  },
+  {
+    "id": 10,
+    "title": "The Double Screen",
+    "image": "/assets/zoom49/week2/figure3.png",
+    "visual": "Two mirrored presentations screen-shared simultaneously, near-identical slide decks.",
+    "motifs": [
+      "duplication",
+      "reflection",
+      "recursion",
+      "systemic echo",
+      "hidden assumption"
+    ],
+    "keyEvents": [
+      "Duplicate presentations appear without coordination",
+      "Accidental redundancy reveals shared assumption flaw",
+      "Systemic reflection instead of glitch",
+      "Hidden user behavior assumption exposed",
+      "Correction implemented rapidly"
+    ],
+    "characterArcs": {
+      "Oedi": "Accepts recursion instead of eliminating it.",
+      "Bianca": "Names echo behavior in complex systems.",
+      "Milo": "Frames duplication as performance art.",
+      "Felix": "Attributes issue to version drift.",
+      "Piper": "Identifies systemic symmetry.",
+      "Max": "Visual alignment reveals structural mirroring."
+    }
+  },
+  {
+    "id": 11,
+    "title": "The Horn Returns",
+    "image": "/assets/zoom49/week2/figure4.png",
+    "visual": "Clear structural horn at 14:49 marking transition rather than disruption.",
+    "motifs": [
+      "horn",
+      "transition",
+      "rhythm",
+      "structural signal",
+      "temporal marker"
+    ],
+    "keyEvents": [
+      "Horn sounds precisely at 14:49",
+      "Team reacts with silence instead of panic",
+      "Branch merged: tristero_fix_final_FINAL_v2",
+      "Reactions become slower and deliberate",
+      "Horn reframed as structural rhythm"
+    ],
+    "characterArcs": {
+      "Oedi": "Horn no longer triggers paranoia; it marks transition.",
+      "Sergio": "Stability becomes rhythmic rather than reactive.",
+      "Milo": "Interprets horn as system exhalation.",
+      "Felix": "Continues silent structural integration.",
+      "Lena": "Maintains roadmap continuity without interruption.",
+      "Bianca": "Defines stability as rhythm."
+    }
+  },
+  {
+    "id": 12,
+    "title": "The Prototype Emerges",
+    "image": "/assets/zoom49/week2/figure5.png",
+    "visual": "Functional prototype materializes without explicit alignment; invisible participants vanish.",
+    "motifs": [
+      "prototype",
+      "condensed clarity",
+      "collective alignment",
+      "emergence",
+      "system coherence"
+    ],
+    "keyEvents": [
+      "Prototype exists without formal alignment",
+      "No roadmap epiphany required",
+      "Invisible participants disappear",
+      "Shared moment of collective clarity",
+      "Clarity condenses rather than being imposed"
+    ],
+    "characterArcs": {
+      "Oedi": "Fully transitions into pattern recognition and systemic trust.",
+      "Sergio": "Holds collective clarity steady.",
+      "Milo": "Modulates play into catalytic precision.",
+      "Bianca": "Recognizes emergent coherence.",
+      "Felix": "Acts as subterranean structural layer.",
+      "Piper": "Observation becomes intervention.",
+      "Max": "Aesthetic disruption becomes diagnostic instrument.",
+      "Lena": "Ambiguity reveals intentional scaffolding."
+    }
+  }
+]

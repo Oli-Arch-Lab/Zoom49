@@ -1,0 +1,45 @@
+---
+import AiDot from "../components/AiDot.astro";
+import "../styles/global.css";
+
+const { title, weekData } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+  </head>
+
+  <body class="font-sans bg-neutral-50 text-neutral-900">
+
+    <!-- Header -->
+    <header class="border-b border-neutral-200">
+      <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between text-sm">
+        <a href="/" class="font-semibold">Zoom 49</a>
+        <div class="space-x-6">
+          <a href="/weeks" class="hover:text-signal">Weeks</a>
+          <a href="/patterns" class="hover:text-signal">Patterns</a>
+          <a href="https://github.com/" class="hover:text-signal">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-6 py-12">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-200 mt-16 py-6 text-center text-sm text-neutral-500">
+      Zoom 49 — Recursive Collaboration Lab
+    </footer>
+
+    <!-- Always render -->
+    <AiDot weekData={weekData} />
+
+    <script type="module" src="/src/scripts/ai-dot.js"></script>
+
+  </body>
+</html>

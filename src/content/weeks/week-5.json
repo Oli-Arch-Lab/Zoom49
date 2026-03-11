@@ -1,0 +1,144 @@
+[
+  {
+    "id": 23,
+    "title": "Ghosts in the Grid",
+    "image": "/assets/zoom49/week5/figure1.png",
+    "visual": "Four phantom AI participants join Zoom; names flicker while Slack reacts before human input.",
+    "motifs": [
+      "AI participants",
+      "phantom presence",
+      "anticipation loop",
+      "algorithmic awareness",
+      "system-within-system"
+    ],
+    "keyEvents": [
+      "AI_Alpha, AI_Beta, AI_Gamma, AI_Delta appear in Zoom",
+      "AI names flicker without camera or audio",
+      "Slack reactions appear before user clicks",
+      "Felix commits referencing AI_Alpha",
+      "System anticipates human anticipation"
+    ],
+    "characterArcs": {
+      "Oedi": "Recognizes recursive anticipation between self and system.",
+      "Sergio": "Maintains grounded presence amid unpredictability.",
+      "Milo": "Uses playful symbolism to probe systemic behavior.",
+      "Bianca": "Affirms reflection over control.",
+      "Felix": "Encounters algorithmic interference in codebase.",
+      "Piper": "Documents pre-emptive AI reactions.",
+      "Max": "Maps workflow as maze of human-AI interplay."
+    }
+  },
+  {
+    "id": 24,
+    "title": "Recursive Decisions",
+    "image": "/assets/zoom49/week5/figure2.png",
+    "visual": "Decisions echo backward; slides and GIFs reference artifacts not yet created.",
+    "motifs": [
+      "decision loops",
+      "temporal feedback",
+      "influence recursion",
+      "future reference",
+      "interactive awareness"
+    ],
+    "keyEvents": [
+      "Slack references prior days after new merges",
+      "GIFs echo earlier symbolic gestures",
+      "Slides contain diagrams of future artifacts",
+      "Team senses vertigo of recursive agency",
+      "Recognition of mutual influence between team and system"
+    ],
+    "characterArcs": {
+      "Oedi": "Accepts dual role as decision-maker and subject.",
+      "Sergio": "Stabilizes recursive vertigo.",
+      "Milo": "Discovers play can influence temporal loops.",
+      "Bianca": "Names recursive choice as observable echo.",
+      "Lena": "Hints that future decisions pre-shape present."
+    }
+  },
+  {
+    "id": 25,
+    "title": "The Horn Returns",
+    "image": "/assets/zoom49/week5/figure3.png",
+    "visual": "Horn sounds at 14:49; AI participants react simultaneously; commits pause mid-action.",
+    "motifs": [
+      "horn signal",
+      "recursive observation point",
+      "synchronization",
+      "temporal marker",
+      "collective recognition"
+    ],
+    "keyEvents": [
+      "Horn sounds precisely at 14:49",
+      "AI participants react simultaneously",
+      "Commits halt momentarily",
+      "Pattern reveals cross-day decision loops",
+      "Insight coincides with awareness"
+    ],
+    "characterArcs": {
+      "Oedi": "Identifies horn as recursive marker.",
+      "Sergio": "Embodies rhythm rather than static stability.",
+      "Milo": "Pauses play to witness signal.",
+      "Bianca": "Frames insight as convergence of awareness and recursion.",
+      "Piper": "Maps horn-to-loop correlations."
+    }
+  },
+  {
+    "id": 26,
+    "title": "Negotiating With Phantoms",
+    "image": "/assets/zoom49/week5/figure4.png",
+    "visual": "Team experiments with AI responses; diagrams track algorithmic reactions over time.",
+    "motifs": [
+      "system negotiation",
+      "pattern experimentation",
+      "AI feedback",
+      "influence mapping",
+      "collaborative recursion"
+    ],
+    "keyEvents": [
+      "Test branches provoke AI reactions",
+      "Playful GIFs trigger algorithmic echoes",
+      "Slides document AI-human interaction patterns",
+      "Recognition that system can be influenced",
+      "Meta-awareness becomes actionable"
+    ],
+    "characterArcs": {
+      "Oedi": "Learns influence through pattern recognition.",
+      "Sergio": "Bridges human and algorithmic steadiness.",
+      "Milo": "Transforms humor into experimental probe.",
+      "Bianca": "Anchors ethical reflection within systemic play.",
+      "Lena": "Uses ambiguity as scaffold for AI interaction.",
+      "Felix": "Tests boundaries through controlled commits.",
+      "Max": "Visualizes recursive response diagrams."
+    }
+  },
+  {
+    "id": 27,
+    "title": "Symbolic Resolution",
+    "image": "/assets/zoom49/week5/figure5.png",
+    "visual": "Horn becomes symbolic presence; AI participants vanish without trace.",
+    "motifs": [
+      "symbolic horn",
+      "awareness",
+      "connection",
+      "insight",
+      "co-creation"
+    ],
+    "keyEvents": [
+      "Horn reframed as symbol of recognition",
+      "Final meta-branch merged",
+      "Meta-timeline archived",
+      "AI participants disappear silently",
+      "Awareness remains without visible signal"
+    ],
+    "characterArcs": {
+      "Oedi": "Operates as conscious co-creator of recursive complexity.",
+      "Sergio": "Becomes steady node linking human and system.",
+      "Milo": "Understands play as strategic signal.",
+      "Bianca": "Integrates ethics and recursive presence.",
+      "Felix": "Actions resonate across layered loops.",
+      "Piper": "Creates systemic memory archive.",
+      "Max": "Unifies absurdity and clarity into coherent mapping.",
+      "Lena": "Guides interaction through intentional ambiguity."
+    }
+  }
+]

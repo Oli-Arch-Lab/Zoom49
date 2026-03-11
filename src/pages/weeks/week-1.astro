@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-1.json";
+---
+
+<BaseLayout title="Week 1 – The Inheritance of Chaos" weekData={weekData}>
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">Week 1 — The Inheritance of Chaos</h1>
+
+    <p class="text-neutral-700 mb-12 max-w-2xl">
+      A recursive destabilization event.
+    </p>
+
+    <p class="text-neutral-600 leading-relaxed">
+      The team is confronted with a chaotic signal. A recursive destabilization
+      event that defies traditional analysis. As they attempt to decipher the
+      signal, they realize that it is not just a random occurrence but an
+      inherited pattern of chaos, passed down through layers of recursion.
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+    <div>
+      <h2 class="text-2xl font-serif mb-2">Thematic Shift</h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+      </p>
+    </div>
+
+    <!-- Character Integration -->
+    <div>
+      <h2 class="text-2xl font-serif mb-4">
+        Character Integration into Chaotic Narrative
+      </h2>
+      <ul class="space-y-3 text-neutral-700">
+        <li>
+          <strong>Oedi:</strong> The observer, trying to make sense of the chaos.
+        </li>
+        <li>
+          <strong>Sergio:</strong> The analyst, attempting to decode the signal.
+        </li>
+        <li>
+          <strong>Team Dynamic:</strong> Initial shock and confusion, followed by
+          a drive to understand.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        "Stage for a journey into the heart of chaos, where the team must
+        confront the unknown and find meaning in the inherited patterns of
+        disorder."
+      </blockquote>
+    </div>
+  </section>
+</BaseLayout>

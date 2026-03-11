@@ -1,0 +1,157 @@
+---
+import week1 from "../content/weeks/week-1.json";
+import week2 from "../content/weeks/week-2.json";
+import week3 from "../content/weeks/week-3.json";
+import week4 from "../content/weeks/week-4.json";
+import week5 from "../content/weeks/week-5.json";
+import week6 from "../content/weeks/week-6.json";
+import week7 from "../content/weeks/week-7.json";
+
+const allFigures = [
+  ...week1,
+  ...week2,
+  ...week3,
+  ...week4,
+  ...week5,
+  ...week6,
+  ...week7
+];
+
+// Collect motifs
+const motifMap = new Map();
+
+for (const fig of allFigures) {
+  for (const motif of fig.motifs || []) {
+    if (!motifMap.has(motif)) motifMap.set(motif, []);
+    motifMap.get(motif).push(fig);
+  }
+}
+
+const motifs = [...motifMap.keys()];
+---
+
+<div class="zoom49-map">
+
+  <!-- MOTIF NODES -->
+  <div class="motif-grid">
+
+    {motifs.map((motif) => (
+
+      <button
+        class="motif-node"
+        data-motif={motif}
+      >
+        {motif}
+      </button>
+
+    ))}
+
+  </div>
+
+  <!-- RESULT PANEL -->
+  <div id="motif-results" class="results hidden"></div>
+
+</div>
+
+
+<script is:inline>
+
+const motifNodes = document.querySelectorAll(".motif-node");
+const results = document.getElementById("motif-results");
+
+const motifData = JSON.parse(
+  document.querySelector(".zoom49-map").dataset?.figures || "[]"
+);
+
+</script>
+
+<script define:vars={{ motifMap }}>
+
+const nodes = document.querySelectorAll(".motif-node");
+const panel = document.getElementById("motif-results");
+
+nodes.forEach(node => {
+
+  node.addEventListener("click", () => {
+
+    const motif = node.dataset.motif;
+
+    const figures = motifMap[motif] || [];
+
+    if (!figures.length) return;
+
+    panel.innerHTML = `
+      <h3>Motif: ${motif}</h3>
+      <div class="figure-grid">
+        ${figures.map(fig => `
+          <div class="figure">
+            <img src="${fig.image}" alt="${fig.title}">
+            <div class="caption">
+              <strong>${fig.title}</strong>
+              <p>Figure ${fig.id}</p>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    `;
+
+    panel.classList.remove("hidden");
+
+  });
+
+});
+
+</script>
+
+
+<style>
+
+.zoom49-map{
+  margin-top:40px;
+}
+
+.motif-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:12px;
+}
+
+.motif-node{
+  padding:12px;
+  border-radius:8px;
+  background:#111;
+  border:1px solid #444;
+  color:white;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.motif-node:hover{
+  background:#333;
+}
+
+.results{
+  margin-top:30px;
+}
+
+.figure-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
+}
+
+.figure img{
+  width:100%;
+  border-radius:6px;
+}
+
+.caption{
+  font-size:.9rem;
+  margin-top:6px;
+}
+
+.hidden{
+  display:none;
+}
+
+</style>

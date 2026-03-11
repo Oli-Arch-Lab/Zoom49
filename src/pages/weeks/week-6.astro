@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-6.json";
+---
+
+<BaseLayout
+  title="Week 6 — The Predictive Play"
+  weekData={weekData}
+>
+
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">
+      Week 6 — The Predictive Play
+    </h1>
+
+    <p class="text-neutral-600 leading-relaxed">
+      Where awareness transforms into strategy, and the Tristero reveals its patterns.
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+
+    <div>
+      <h2 class="text-2xl font-serif mb-2">
+        Thematic Shift
+      </h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+        Week 2: Recursion<br />
+        Week 3: Stress<br />
+        Week 4: Meta-awareness<br />
+        Week 5: Negotiation with System<br />
+        Week 6: Predictive Play & Symbolic Integration
+      </p>
+    </div>
+
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        “The system is not ours to control.
+        It is ours to engage with.
+        Clarity emerges through iterative awareness, not mandate.”
+      </blockquote>
+    </div>
+
+  </section>
+
+</BaseLayout>

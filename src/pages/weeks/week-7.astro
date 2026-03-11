@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-7.json";
+---
+
+<BaseLayout
+  title="Week 7 — The Tristero Revealed"
+  weekData={weekData}
+>
+
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">
+      Week 7 — The Tristero Revealed
+    </h1>
+
+    <p class="text-neutral-600 leading-relaxed">
+      Where patterns coalesce, and the system becomes a mirror of both participants and observers.
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+
+    <div>
+      <h2 class="text-2xl font-serif mb-2">
+        Thematic Shift — Meta-Resolution
+      </h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+        Week 2: Recursion<br />
+        Week 3: Stress<br />
+        Week 4: Meta-awareness<br />
+        Week 5: Negotiation with System<br />
+        Week 6: Predictive Play & Symbolic Integration<br />
+        Week 7: Closure Without Closure
+      </p>
+    </div>
+
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        “The Tristero is not solved.
+        It is observed, understood, and played with.
+        Clarity exists only in engagement.”
+      </blockquote>
+    </div>
+
+  </section>
+
+</BaseLayout>

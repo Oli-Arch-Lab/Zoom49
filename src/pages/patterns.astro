@@ -1,0 +1,183 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import week1 from "../content/weeks/week-1.json";
+import week2 from "../content/weeks/week-2.json";
+import week3 from "../content/weeks/week-3.json";
+import week4 from "../content/weeks/week-4.json";
+import week5 from "../content/weeks/week-5.json";
+import week6 from "../content/weeks/week-6.json";
+import week7 from "../content/weeks/week-7.json";
+
+const figures = [
+  ...week1,
+  ...week2,
+  ...week3,
+  ...week4,
+  ...week5,
+  ...week6,
+  ...week7
+];
+
+// Collect motifs
+const motifs = new Set<string>();
+
+figures.forEach(f => {
+  (f.motifs || []).forEach(m => motifs.add(m));
+});
+
+// Graph links
+const links: { source: string; target: string }[] = [];
+
+figures.forEach(fig => {
+
+  const m = fig.motifs || [];
+
+  for (let i = 0; i < m.length; i++) {
+    for (let j = i + 1; j < m.length; j++) {
+      links.push({
+        source: m[i],
+        target: m[j]
+      });
+    }
+  }
+
+});
+---
+
+<BaseLayout title="Motif Graph">
+
+<section class="max-w-7xl mx-auto px-6 py-12">
+
+<h1 class="text-3xl font-serif mb-8">
+Zoom49 Motif Graph
+</h1>
+
+<div id="graph"></div>
+
+<div id="panel" class="mt-10"></div>
+
+</section>
+
+
+<!-- D3 -->
+<script is:inline src="https://d3js.org/d3.v7.min.js"></script>
+
+
+<script define:vars={{
+  nodes: [...motifs],
+  links: links,
+  figures: figures
+}}>
+
+const nodeData = nodes.map(n => ({ id: n }));
+
+const width = document.getElementById("graph").clientWidth;
+const height = 600;
+
+const svg = d3.select("#graph")
+.append("svg")
+.attr("viewBox", `0 0 ${width} ${height}`)
+.attr("width", "100%")
+.attr("height", height);
+
+const zoomLayer = svg.append("g");
+
+const simulation = d3.forceSimulation(nodeData)
+.force("link", d3.forceLink(links).id(d => d.id).distance(120))
+.force("charge", d3.forceManyBody().strength(-250))
+.force("center", d3.forceCenter(width/2, height/2));
+
+const link = zoomLayer.append("g")
+.selectAll("line")
+.data(links)
+.enter()
+.append("line")
+.attr("stroke", "#bbb");
+
+const node = zoomLayer.append("g")
+.selectAll("circle")
+.data(nodeData)
+.enter()
+.append("circle")
+.attr("r", 10)
+.attr("fill", "#111");
+
+const label = zoomLayer.append("g")
+.selectAll("text")
+.data(nodeData)
+.enter()
+.append("text")
+.text(d => d.id)
+.attr("font-size", 12)
+.attr("dx", 14)
+.attr("dy", ".35em");
+
+const zoom = d3.zoom()
+.scaleExtent([0.3, 3])
+.on("zoom", (event) => {
+  zoomLayer.attr("transform", event.transform);
+});
+
+svg.call(zoom);
+
+simulation.on("tick", () => {
+
+link
+.attr("x1", d => d.source.x)
+.attr("y1", d => d.source.y)
+.attr("x2", d => d.target.x)
+.attr("y2", d => d.target.y);
+
+node
+.attr("cx", d => d.x)
+.attr("cy", d => d.y);
+
+label
+.attr("x", d => d.x)
+.attr("y", d => d.y);
+
+});
+
+node.on("click", (_, d) => {
+
+const matches = figures.filter(f =>
+(f.motifs || []).includes(d.id)
+);
+
+document.getElementById("panel").innerHTML = `
+
+<h2>Motif: ${d.id}</h2>
+
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:20px">
+
+${matches.map(fig => `
+
+<div style="border:1px solid #ddd;padding:10px;border-radius:8px">
+<img src="${fig.image}" style="width:100%;border-radius:6px"/>
+<strong>Figure ${fig.id} — ${fig.title}</strong>
+</div>
+
+`).join("")}
+
+</div>
+
+`;
+
+});
+
+</script>
+<style>
+#graph {
+  width: 100%;
+  overflow: visible;
+}
+
+#graph svg {
+  max-width: 100%;
+}
+
+#panel img {
+  width: 100%;
+}
+</style>

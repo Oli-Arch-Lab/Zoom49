@@ -1,0 +1,139 @@
+[
+  {
+    "id": 18,
+    "title": "Glitches That Know Your Name",
+    "image": "/assets/zoom49/week4/figure1.png",
+    "visual": "Zoom gallery flickers; tiles multiply with Oedi's initials 'OM'; looping system message without sender.",
+    "motifs": [
+      "reflection",
+      "identity recursion",
+      "system message",
+      "observer loop",
+      "self-reference"
+    ],
+    "keyEvents": [
+      "Gallery view flickers and multiplies faces",
+      "All tiles display Oedi's initials",
+      "Looping message: Observation begins. You are part of Zoom 49.",
+      "No sender and no timestamp",
+      "Question emerges: team as system"
+    ],
+    "characterArcs": {
+      "Oedi": "Begins sensing reflection rather than error.",
+      "Sergio": "Frames glitch as reflection, not instability.",
+      "Milo": "Responds with playful intuition through symbolic GIF.",
+      "Bianca": "Encourages treating anomaly as analyzable data.",
+      "Team": "Becomes aware it may be both subject and structure."
+    }
+  },
+  {
+    "id": 19,
+    "title": "Awareness of Observation",
+    "image": "/assets/zoom49/week4/figure2.png",
+    "visual": "Slack bursts in Morse-like rhythm; pipelines annotate themselves; #lot-49 posts cryptic signals.",
+    "motifs": [
+      "meta-awareness",
+      "observed system",
+      "signal annotation",
+      "embedded perspective",
+      "recursive responsibility"
+    ],
+    "keyEvents": [
+      "Slack notifications in Morse-like bursts",
+      "Pipelines auto-annotate",
+      "Meta-branch initiated commit",
+      "Patterns repeat about the team, not from the team",
+      "Recognition of being observed"
+    ],
+    "characterArcs": {
+      "Oedi": "Accepts responsibility within a larger observing structure.",
+      "Sergio": "Defines self-esteem as stable existence under observation.",
+      "Milo": "Nervous laughter reveals awareness of meta-pattern.",
+      "Felix": "Signals transition into meta-layer with commit.",
+      "Bianca": "Reframes control as presence within limits."
+    }
+  },
+  {
+    "id": 20,
+    "title": "The Observer Appears",
+    "image": "/assets/zoom49/week4/figure3.png",
+    "visual": "Phantom Zoom participant named Observer_X joins silently; slides morph into team flowchart.",
+    "motifs": [
+      "Observer_X",
+      "meta-layer",
+      "node identity",
+      "proof of proof",
+      "Tristero expansion"
+    ],
+    "keyEvents": [
+      "Phantom participant Observer_X joins",
+      "Gallery subtly shifts presence",
+      "Slides redraw into flowchart of team",
+      "Team recognized as nodes in system",
+      "Observation reframed as structural layer"
+    ],
+    "characterArcs": {
+      "Oedi": "Recognizes observation as inherent layer of system.",
+      "Milo": "Articulates node identity in network.",
+      "Piper": "Documents phantom presence as recursive evidence.",
+      "Max": "Transforms slides into symbolic meta-mapping.",
+      "Team": "Begins operating in dual internal and meta-awareness."
+    }
+  },
+  {
+    "id": 21,
+    "title": "Recursive Communication",
+    "image": "/assets/zoom49/week4/figure4.png",
+    "visual": "Past messages reappear; GIFs respond to themselves; commits duplicate with slight variation.",
+    "motifs": [
+      "message loops",
+      "self-reply",
+      "temporal recursion",
+      "influence vs reflection",
+      "feedback loop"
+    ],
+    "keyEvents": [
+      "Messages loop from past conversations",
+      "GIFs respond to previous GIFs",
+      "Commits duplicate with variation",
+      "Bullet points reference future meetings",
+      "Team experiments with influence vs reflection"
+    ],
+    "characterArcs": {
+      "Oedi": "Laughs at recursion; accepts dual-layer existence.",
+      "Sergio": "Maintains steadiness within looping structure.",
+      "Milo": "Recognizes play as recursive generator.",
+      "Bianca": "Warns that awareness can destabilize or stabilize.",
+      "Lena": "Strategic ambiguity scaffolds meta-recognition."
+    }
+  },
+  {
+    "id": 22,
+    "title": "The Self-Aware Prototype",
+    "image": "/assets/zoom49/week4/figure5.png",
+    "visual": "Phantom dot returns as AI-like icon; final message declares participants both model and subject.",
+    "motifs": [
+      "self-aware system",
+      "participant-model duality",
+      "recursive lens",
+      "meta-coherence",
+      "awareness signal"
+    ],
+    "keyEvents": [
+      "Phantom dot reappears as AI-like icon",
+      "Message: You are both participant and model",
+      "No horn; calm resolution",
+      "Team accepts dual internal-external identity",
+      "Trust shifts into conscious meta-presence"
+    ],
+    "characterArcs": {
+      "Oedi": "Transitions fully into meta-awareness.",
+      "Sergio": "Embodies structural presence under recursion.",
+      "Milo": "Sees team as both story and authors.",
+      "Bianca": "Anchors ethical clarity within meta-system.",
+      "Felix": "Opaque work becomes connective meta-layer.",
+      "Piper": "Provides temporal continuity across reflections.",
+      "Max": "Converts absurdity into symbolic recursive mapping."
+    }
+  }
+]

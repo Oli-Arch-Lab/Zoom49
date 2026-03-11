@@ -1,0 +1,115 @@
+---
+
+---
+
+<section id="patterns" class="patterns">
+  <h2>Zoom49 Interactive Patterns (Weeks 1–12)</h2>
+  <p>Explore recursive, playful, and reflective nodes across all 12 weeks. Hover to see insights; click to dive deeper.</p>
+
+  <svg id="zoom49-patterns-map" width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+      .node { cursor: pointer; stroke-width: 2; font-family: Helvetica, Arial, sans-serif; text-anchor: middle; pointer-events: all; }
+      .core { fill: #00ffff; stroke: #00ffff; stroke-width: 3; animation: pulse 2s infinite; }
+      .chaos { fill: #ff00ff; stroke: #ff00ff; opacity: 0.8; }
+      .playful { fill: #ffd700; stroke: #ffd700; }
+      .reflection { fill: rgba(200,200,255,0.5); stroke: #9999ff; }
+      .predictive { fill: #99ff99; stroke: #66cc66; }
+      .artifact { fill: none; stroke: #ffffff; stroke-width: 3; }
+      .arrow { stroke: #00ffff; stroke-width: 2; marker-end: url(#arrowhead); opacity: 0.7; }
+      .label { fill: #e6e6e6; font-size: 14px; }
+
+      @keyframes pulse {
+        0% { r: 90; }
+        50% { r: 100; }
+        100% { r: 90; }
+      }
+    </style>
+
+    <!-- Arrow Marker -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#00ffff"/>
+      </marker>
+    </defs>
+
+    <!-- Core Node -->
+    <circle cx="600" cy="450" r="90" class="core" data-tooltip="This node is thinking about thinking about thinking."/>
+    <text x="600" y="455" class="label">Recursive ↔ Core</text>
+
+    <!-- Weeks 1–4 Chaos / Stress / Reflection -->
+    <circle cx="300" cy="150" r="50" class="node chaos" data-tooltip="Every loop is a new beginning… or the same one again."/>
+    <text x="300" y="155" class="label">Week 1 Chaos</text>
+
+    <circle cx="400" cy="100" r="50" class="node chaos" data-tooltip="Unpredictable events, emerging pattern."/>
+    <text x="400" y="105" class="label">Week 2 Chaos</text>
+
+    <circle cx="550" cy="200" r="50" class="node chaos" data-tooltip="Stress test reveals hidden stability."/>
+    <text x="550" y="205" class="label">Week 3 Stress Test</text>
+
+    <circle cx="700" cy="350" r="50" class="node reflection" data-tooltip="Dots are watching you watch them — or are you the dot?"/>
+    <text x="700" y="355" class="label">Week 4 Meta Turn</text>
+
+    <!-- Weeks 5–8 Playful / Predictive / Reflection -->
+    <circle cx="450" cy="500" r="50" class="node predictive" data-tooltip="Loops: endings optional, beginnings mandatory."/>
+    <text x="450" y="505" class="label">Week 5 Predictive</text>
+
+    <circle cx="650" cy="600" r="50" class="node reflection" data-tooltip="Meta-strategic insight emerges."/>
+    <text x="650" y="605" class="label">Week 6 Reflection</text>
+
+    <circle cx="900" cy="450" r="50" class="node artifact" data-tooltip="Click to generate artifact / PDF"/>
+    <text x="900" y="455" class="label">Week 7 Artifact</text>
+
+    <circle cx="500" cy="650" r="50" class="node playful" data-tooltip="Chaos can be cute and cuddly."/>
+    <text x="500" y="655" class="label">Week 8 Playful</text>
+
+    <!-- Weeks 9–12 Chaos / Reflection / Predictive / Artifact -->
+    <circle cx="300" cy="650" r="50" class="node chaos" data-tooltip="Unexpected divergence — loops multiply."/>
+    <text x="300" y="655" class="label">Week 9 Chaos</text>
+
+    <circle cx="750" cy="200" r="50" class="node reflection" data-tooltip="Observing the observer, again."/>
+    <text x="750" y="205" class="label">Week 10 Reflection</text>
+
+    <circle cx="850" cy="600" r="50" class="node predictive" data-tooltip="Forecasting what might emerge from the loops."/>
+    <text x="850" y="605" class="label">Week 11 Predictive</text>
+
+    <circle cx="950" cy="350" r="50" class="node artifact" data-tooltip="Final artifact output, integrated."/>
+    <text x="950" y="355" class="label">Week 12 Artifact</text>
+
+    <!-- Playful / Motif Mini-Nodes -->
+    <circle cx="400" cy="400" r="40" class="node playful" data-tooltip="Raccoons are chaos you can cuddle."/>
+    <text x="400" y="405" class="label">Motif A</text>
+
+    <circle cx="750" cy="300" r="40" class="node playful" data-tooltip="Horn beeped, or maybe imagined."/>
+    <text x="750" y="305" class="label">Motif B</text>
+
+    <!-- Feedback Arrows to Core -->
+    <line x1="300" y1="150" x2="600" y2="450" class="arrow"/>
+    <line x1="400" y1="100" x2="600" y2="450" class="arrow"/>
+    <line x1="550" y1="200" x2="600" y2="450" class="arrow"/>
+    <line x1="700" y1="350" x2="600" y2="450" class="arrow"/>
+    <line x1="450" y1="500" x2="600" y2="450" class="arrow"/>
+    <line x1="650" y1="600" x2="600" y2="450" class="arrow"/>
+    <line x1="900" y1="450" x2="600" y2="450" class="arrow"/>
+    <line x1="500" y1="650" x2="600" y2="450" class="arrow"/>
+    <line x1="300" y1="650" x2="600" y2="450" class="arrow"/>
+    <line x1="750" y1="200" x2="600" y2="450" class="arrow"/>
+    <line x1="850" y1="600" x2="600" y2="450" class="arrow"/>
+    <line x1="950" y1="350" x2="600" y2="450" class="arrow"/>
+
+  </svg>
+
+  <script type="module">
+    const nodes = document.querySelectorAll('.node, .core');
+    nodes.forEach(node => {
+      node.addEventListener('mouseover', () => {
+        const tooltip = node.dataset.tooltip;
+        console.log('Tooltip:', tooltip); // Replace with Tippy.js or Astro Tooltip
+      });
+      node.addEventListener('click', () => {
+        console.log('Clicked node:', node.querySelector('.label')?.textContent);
+        // Load Markdown content dynamically into a side panel
+      });
+    });
+  </script>
+</section>

@@ -1,0 +1,144 @@
+[
+  {
+    "id": 13,
+    "title": "The Prediction",
+    "image": "/assets/zoom49/week3/figure1.png",
+    "visual": "Premature post-mortem invite forecasting a failure that has not yet occurred.",
+    "motifs": [
+      "prediction",
+      "anticipated failure",
+      "temporal recursion",
+      "stress emergence",
+      "silent horn"
+    ],
+    "keyEvents": [
+      "Calendar invite titled Post-Mortem: Feature Failure",
+      "Feature not yet launched",
+      "System appears to anticipate collapse",
+      "Tension enters the grid before any failure",
+      "Silence replaces the horn"
+    ],
+    "characterArcs": {
+      "Oedi": "Begins sensing future fracture rather than decoding mystery.",
+      "Bianca": "Maintains calm observation without reactive interpretation.",
+      "Sergio": "Stabilizes preemptive anxiety.",
+      "Milo": "Frames temporal glitch as playful paradox.",
+      "Felix": "Checks logs; confirms nothing broken yet.",
+      "Piper": "Archives timestamp anomaly."
+    }
+  },
+  {
+    "id": 14,
+    "title": "Latency",
+    "image": "/assets/zoom49/week3/figure2.png",
+    "visual": "Psychological lag in Zoom calls; pauses stretch longer than network delay.",
+    "motifs": [
+      "latency",
+      "fear of failure",
+      "amplified signal",
+      "risk perception",
+      "emotional overreaction"
+    ],
+    "keyEvents": [
+      "Half-second conversational delays",
+      "Sharper deadlines and reduced irony",
+      "Minor bug triggers disproportionate emotional reaction",
+      "Stress amplifies signal weight",
+      "Ambiguity reinterpreted as risk"
+    ],
+    "characterArcs": {
+      "Oedi": "Recognizes fear replacing curiosity.",
+      "Sergio": "Feels stretched under pressure.",
+      "Milo": "Reduces playful interventions.",
+      "Lena": "Emphasizes urgency and precision.",
+      "Max": "Design aesthetic shifts toward clarity.",
+      "Bianca": "Names stress distortion effect."
+    }
+  },
+  {
+    "id": 15,
+    "title": "The Fracture",
+    "image": "/assets/zoom49/week3/figure3.png",
+    "visual": "Launch slowdown at 14:49; system slows but does not crash.",
+    "motifs": [
+      "fracture",
+      "horn hour",
+      "slowdown",
+      "rollback tension",
+      "internal test"
+    ],
+    "keyEvents": [
+      "System slowdown during launch",
+      "User confusion reported",
+      "Rollback considered",
+      "Single onboarding flow isolated and patched",
+      "Crisis navigated without panic"
+    ],
+    "characterArcs": {
+      "Oedi": "Moves from observer to decision anchor.",
+      "Sergio": "Momentarily flickers under pressure.",
+      "Milo": "Suppresses reflexive humor; exercises restraint.",
+      "Bianca": "Recalibrates team with analytical clarity.",
+      "Felix": "Speaks decisively during crisis.",
+      "Lena": "Balances risk and adaptation."
+    }
+  },
+  {
+    "id": 16,
+    "title": "The Quiet Rebuild",
+    "image": "/assets/zoom49/week3/figure4.png",
+    "visual": "Post-crisis softness; annotated timeline and simplified onboarding design.",
+    "motifs": [
+      "rebuild",
+      "continuity",
+      "integration",
+      "collective learning",
+      "resilience"
+    ],
+    "keyEvents": [
+      "Annotated launch timeline presented",
+      "Onboarding redesigned with simplicity",
+      "Genuine laughter returns",
+      "Confidence reframed as continuity",
+      "Emotional steadiness restored"
+    ],
+    "characterArcs": {
+      "Oedi": "Internalizes resilience as lived principle.",
+      "Sergio": "Returns embodied and stronger.",
+      "Milo": "Reintroduces calibrated humor.",
+      "Bianca": "Integrates failure into adaptive identity.",
+      "Piper": "Documentation becomes healing mirror.",
+      "Max": "Shifts from absurdity to elegant clarity."
+    }
+  },
+  {
+    "id": 17,
+    "title": "The External Shock",
+    "image": "/assets/zoom49/week3/figure5.png",
+    "visual": "Corporate restructuring email introduces real institutional pressure.",
+    "motifs": [
+      "external pressure",
+      "restructuring",
+      "institutional threat",
+      "team coherence",
+      "trust"
+    ],
+    "keyEvents": [
+      "Corporate restructuring announcement",
+      "Budget review and consolidation risk",
+      "Unstructured Zoom conversation",
+      "Team affirms shared achievement",
+      "Trust replaces systemic signal"
+    ],
+    "characterArcs": {
+      "Oedi": "Stops decoding system; begins shaping it.",
+      "Sergio": "Stability rooted in shared memory.",
+      "Milo": "Asks vulnerable question about team continuity.",
+      "Bianca": "Recognizes coherence as survival mechanism.",
+      "Felix": "Anchors team with reminder: We shipped.",
+      "Lena": "Shows strategic transparency under real stakes.",
+      "Piper": "Names adaptation explicitly.",
+      "Max": "Balances design clarity with emotional honesty."
+    }
+  }
+]

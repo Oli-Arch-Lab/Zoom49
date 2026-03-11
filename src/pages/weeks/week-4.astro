@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-4.json";
+---
+<BaseLayout
+  title="Week 4 — The Meta Turn"
+  weekData={weekData}
+>
+
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">
+      Week 4 — The Meta Turn
+    </h1>
+
+    <p class="text-neutral-600 leading-relaxed">
+      Where the system becomes aware of itself.
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+
+    <div>
+      <h2 class="text-2xl font-serif mb-2">
+        Thematic Shift
+      </h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+        Week 2: Recursion<br />
+        Week 3: Stress<br />
+        Week 4: Self-Reflexive Meta-System
+      </p>
+    </div>
+
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        “The team no longer merely navigates complexity.
+         They are part of the complexity.
+         And complexity is observing them.”
+      </blockquote>
+    </div>
+
+  </section>
+
+</BaseLayout>

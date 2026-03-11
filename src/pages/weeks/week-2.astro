@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FigureCarousel from "../../components/FigureCarousel.astro";
+import weekData from "../../content/weeks/week-2.json";
+---
+
+<BaseLayout
+  title="Week 2 — The Recursive Signal"
+  weekData={weekData}
+>
+  <!-- Intro -->
+  <section class="mb-12">
+    <h1 class="text-4xl font-serif mb-6">
+      Week 2 — The Recursive Signal
+    </h1>
+
+    <p class="text-neutral-700 leading-relaxed mb-4">
+      Where Week 1 revealed chaos, Week 2 begins to suspect intention.
+    </p>
+
+    <p class="text-neutral-600 leading-relaxed">
+      The team no longer asks, “What is happening?”
+      They begin asking, “What is stabilizing?”
+    </p>
+  </section>
+
+  <!-- Carousel -->
+  <FigureCarousel figures={weekData} />
+
+  <!-- Thematic Shift -->
+  <section class="mt-16 space-y-8">
+    <div>
+      <h2 class="text-2xl font-serif mb-2">
+        Thematic Shift
+      </h2>
+      <p class="text-neutral-700">
+        Week 1: Chaos<br />
+        Week 2: Recursion<br />
+      </p>
+    </div>
+
+    <!-- Character Integration -->
+    <div>
+      <h2 class="text-2xl font-serif mb-4">
+        Character Integration into Recursive Narrative
+      </h2>
+
+      <ul class="space-y-3 text-neutral-700">
+        <li>
+          <strong>Oedi:</strong> Begins to see patterns in the chaos.
+        </li>
+        <li>
+          <strong>Sergio:</strong> Starts mapping recursive structures.
+        </li>
+        <li>
+          <strong>Team Dynamic:</strong> Shifts from reactive to proactive.
+        </li>
+      </ul>
+    </div>
+    <!-- Closing Reflection -->
+    <div class="pt-8 border-t border-neutral-200">
+      <blockquote class="italic text-neutral-600">
+        "The team is no longer just trying to survive the chaos. They are
+        beginning to understand it, to find meaning in the recursive patterns,
+        and to adapt their approach accordingly."
+      </blockquote>
+  </section>
+</BaseLayout>
